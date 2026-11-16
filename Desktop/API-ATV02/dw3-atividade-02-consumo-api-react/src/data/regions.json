@@ -1,0 +1,144 @@
+{
+  "kanto": {
+    "name": "Kanto",
+    "generation": "generation-i",
+    "map": "/maps/Kanto.webp",
+    "story": "Kanto é a região fundadora de toda a franquia, inspirada na região real de Kanto, no Japão. A geografia da região é temperada, marcada por densas florestas (Floresta Viridian), cadeias de montanhas rochosas (Monte Lua) e grandes metrópoles como Saffron City e Celadon City, que abriga o maior centro comercial do mundo Pokémon. A região é dividida em duas grandes metades pelo rio que corta as Rotas 4 e 5. A jornada clássica começa em Pallet Town, onde o Professor Oak entrega ao protagonista e ao seu rival (o neto do professor) seus primeiros Pokémon. Para se tornar o Campeão da Liga, o treinador precisa coletar as 8 insígnias dos Ginásios, passando por cidades como Pewter, Cerulean e Vermilion. No entanto, a paz de Kanto é ameaçada pela Equipe Rocket, uma máfia criminosa liderada pelo misterioso Giovanni (que também é o Líder do Ginásio de Viridian). Eles buscam lucros ilícitos, roubando e vendendo Pokémon raros, chegando a ocupar a Torre Pokémon em Lavender Town e a sede da Silph Co. em Saffron City. O ápice da história é a descoberta de que a Mansão Pokémon na Ilha Cinnabar realizou experimentos de clonagem genética, criando o Mewtwo a partir do DNA do mítico Mew. Mewtwo destruiu o laboratório e fugiu para a Caverna Celeste, onde aguarda um treinador forte o suficiente para desafiá-lo. Além dele, os três pássaros lendários — Articuno (Ilhas Seafoam), Zapdos (Usina Elétrica) e Moltres (Victory Road) — guardam os extremos do continente.",
+    "legendaries": ["articuno", "zapdos", "moltres", "mewtwo", "mew"]
+  },
+  "johto": {
+    "name": "Johto",
+    "generation": "generation-ii",
+    "map": "/maps/Johto.webp",
+    "story": "Johto é a região de Pokémon Gold, Silver e Crystal, localizada a oeste de Kanto. Sua inspiração é a região de Kansai, no Japão, o que se reflete em sua forte tradição cultural, templos antigos e monumentos históricos. Johto é uma terra de contrastes: enquanto cidades como Goldenrod City são altamente urbanizadas e possuem o famoso trem bala (Magnet Train) que liga a região a Kanto, outras como Ecruteak City mantêm o estilo arquitetônico de séculos atrás. A lenda central de Johto gira em torno da Torre de Bronze e da Torre de Lata. Há 150 anos, um raio atingiu a Torre de Bronze, incendiando-a. Três Pokémon desconhecidos morreram no incêndio, mas foram ressuscitados pelo lendário Ho-Oh, tornando-se as feras lendárias Raikou (eletricidade), Entei (fogo) e Suicune (água pura). Suicune, em especial, viaja pelo mundo purificando águas poluídas. O jogador, que começa em New Bark Town, precisa derrotar os 8 novos líderes e encarar o retorno da Equipe Rocket. Mesmo sem Giovanni, os executivos da equipe tentam forçar o retorno do líder usando sinais de rádio para controlar Pokémon. No final, o jogador viaja para a Torre de Lata para enfrentar Ho-Oh, e para as Ilhas Whirl para encontrar Lugia, o guardião adormecido dos mares, cujo bater de asas pode causar tempestades de 40 dias. Após vencer Johto, o jogador pode voltar a Kanto e desafiar o lendário treinador Red no topo da Montanha Silver.",
+    "legendaries": ["ho-oh", "lugia", "raikou", "entei", "suicune", "celebi"]
+  },
+  "hoenn": {
+    "name": "Hoenn",
+    "generation": "generation-iii",
+    "map": "/maps/Hoenn.webp",
+    "story": "Hoenn é a região de Pokémon Ruby, Sapphire e Emerald, inspirada na ilha de Kyushu, no Japão. É a região com a maior proporção de água entre todas, composta por inúmeras ilhas tropicais, praias de areia branca, florestas densas e o imponente Monte Chimney, um vulcão ativo. A história de Hoenn é movida por um conflito ideológico sobre a expansão territorial. O jogador se muda para Littleroot Town e recebe seu Pokémon do Professor Birch. Enquanto coleta as insígnias, ele se vê no meio de uma guerra entre duas organizações criminosas: a Equipe Magma, que acredita que a terra deve ser expandida para os humanos, e a Equipe Aqua, que acredita que o mar deve ser expandido para proteger os Pokémon aquáticos. Dependendo da versão do jogo, o jogador enfrenta uma delas. O líder da Equipe Magma (Maxie) tenta usar o lendário Groudon para evaporar os oceanos, enquanto o líder da Equipe Aqua (Archie) tenta usar Kyogre para inundar os continentes. O que ambos não sabem é que os lendários são forças da natureza indomáveis. Groudon causa secas extremas e Kyogre causa chuvas torrenciais. O caos climático só termina quando o jogador sobe à Torre do Céu e desperta Rayquaza, o dragão do ozônio, que desce dos céus e acalma os dois titãs com seu poder superior. Outros lendários guardam as ruínas da região, incluindo os três Regis (Regirock, Regice e Registeel), as criaturas do espaço sideral Jirachi e Deoxys, e os dragões gêmeos Latios e Latias.",
+    "legendaries": [
+      "groudon",
+      "kyogre",
+      "rayquaza",
+      "latios",
+      "latias",
+      "regirock",
+      "regice",
+      "registeel",
+      "jirachi",
+      "deoxys"
+    ]
+  },
+  "sinnoh": {
+    "name": "Sinnoh",
+    "generation": "generation-iv",
+    "map": "/maps/Sinnoh.webp",
+    "story": "Sinnoh é a região de Pokémon Diamond, Pearl e Platinum, inspirada na ilha de Hokkaido, no Japão. É uma região de clima frio, montanhoso e coberto de neve na parte norte. O Monte Coronet é a montanha mais alta e divide a região ao meio. A mitologia de Sinnoh é a mais profunda da franquia, lidando com a criação do próprio universo Pokémon. A Equipe Galáctica, liderada pelo vilão Cyrus, é uma organização niilista que acredita que o espírito humano é a fonte de todo o sofrimento. Cyrus planeja usar o poder dos lendários Dialga (o deus do tempo) e Palkia (o deus do espaço) para destruir o universo atual e criar um novo, sem emoções e sem espírito. Para isso, ele usa a corrente vermelha para capturar os espíritos do lago (Uxie, Mesprit e Azelf), que representam o conhecimento, a emoção e a vontade. O jogador impede Cyrus no topo do Pilar da Lança, mas a fúria dos deuses rasga o tecido da realidade, abrindo um portal para o Mundo Distorcido, onde reside Giratina (o deus da antimatéria). O jogador precisa entrar nessa dimensão invertida e acalmar Giratina. Outras lendas incluem Heatran (nascido do magma do Monte Coronet), Regigigas (que arrastou os continentes), Cresselia (que combate os pesadelos de Darkrai) e Arceus, o Pokémon Alfa, que nasceu do ovo no vazio e criou tudo com seus mil braços.",
+    "legendaries": [
+      "dialga",
+      "palkia",
+      "giratina",
+      "uxie",
+      "mesprit",
+      "azelf",
+      "heatran",
+      "regigigas",
+      "cresselia",
+      "darkrai",
+      "shaymin",
+      "arceus"
+    ]
+  },
+  "unova": {
+    "name": "Unova",
+    "generation": "generation-v",
+    "map": "/maps/Unova.webp",
+    "story": "Unova é a região de Pokémon Black e White, inspirada na cidade de Nova York e arredores. É a primeira região baseada em um local ocidental. A região é uma metrópole agitada, com uma ponte suspensa gigante (Skyarrow Bridge) e a ilha de Castelia City, com seus arranha-céus e ruas movimentadas. A história de Unova é uma das mais maduras e explora a ética sobre a captura de Pokémon. A Equipe Plasma, liderada pelo carismático e enigmático N (que consegue ouvir a voz dos Pokémon), prega a libertação dos Pokémon, afirmando que os humanos os escravizam para batalhas. No entanto, o verdadeiro cérebro por trás da equipe é o sábio Ghetsis, que tem planos maquiavélicos de usar N para assumir o controle de Unova. A lenda central envolve dois heróis gêmeos que fundaram a região. Um buscava a Verdade (Reshiram) e o outro buscava os Ideais (Zekrom). O jogador precisa encontrar a Pedra do Dragão para invocar o lendário oposto ao de N e enfrentá-lo. No final, descobre-se que os dois dragões eram originalmente um só, e o corpo vazio deixado pela separação é Kyurem, uma criatura de frio absoluto que assombra o Monte Twist. A região também tem os Mosqueteiros (Cobalion, Terrakion, Virizion e o aprendiz Keldeo), que protegem os Pokémon das florestas, e os gênios da tempestade (Tornadus, Thundurus e Landorus), que controlam o clima.",
+    "legendaries": [
+      "reshiram",
+      "zekrom",
+      "kyurem",
+      "cobalion",
+      "terrakion",
+      "virizion",
+      "keldeo",
+      "tornadus",
+      "thundurus",
+      "landorus",
+      "victini",
+      "meloetta",
+      "genesect"
+    ]
+  },
+  "kalos": {
+    "name": "Kalos",
+    "generation": "generation-vi",
+    "map": "/maps/Kalos.webp",
+    "story": "Kalos é a região de Pokémon X e Y, inspirada na França. O nome vem de 'Ka', que significa beleza. É uma região elegante, em forma de estrela, com foco na moda (Lumiose City é inspirada em Paris), na arte, na culinária e na Mega Evolução. A história de Kalos remonta a 3.000 anos atrás, quando uma grande guerra devastou a região. Um rei, usando uma máquina, usou a energia de Pokémon lendários para trazer seu amado Pokémon de volta à vida, mas a máquina (a arma definitiva) se tornou uma arma de destruição em massa. Hoje, a Equipe Flare, liderada pelo bilionário Lysandre, planeja usar essa mesma arma para destruir o mundo, pois acredita que a superpopulação e a ganância humana estão esgotando os recursos do planeta. Lysandre quer um mundo belo e imutável, onde apenas os puros sobrevivam. O jogador, com a ajuda da Mega Evolution, precisa invadir a sede da Flare em Lumiose City e deter Lysandre. Ele tenta usar a energia de Xerneas (a personificação da vida, que compartilha a eternidade) ou Yveltal (a personificação da destruição, que absorve toda a energia vital ao morrer). Zygarde, o guardião da ordem ecológica, monitora a região das cavernas, pronto para intervir se o ecossistema entrar em colapso.",
+    "legendaries": [
+      "xerneas",
+      "yveltal",
+      "zygarde",
+      "diancie",
+      "hoopa",
+      "volcanion"
+    ]
+  },
+  "alola": {
+    "name": "Alola",
+    "generation": "generation-vii",
+    "map": "/maps/Alola.webp",
+    "story": "Alola é a região de Pokémon Sun e Moon, inspirada no Havaí. É um arquipélago tropical composto por quatro ilhas principais: Melemele, Akala, Ula'ula e Poni, cada uma com sua própria Divindade Protetora (os Tapus). A cultura de Alola gira em torno do Desafio das Ilhas, onde os treinadores realizam testes e enfrentam Pokémon Dominantes em vez de ginásios tradicionais. Alola também é famosa por suas formas regionais, onde Pokémon se adaptaram ao clima tropical (como Vulpix de gelo ou Exeggutor gigante). A história começa quando o jogador se muda para a região e recebe a missão de entregar o misterioso Pokémon Cosmog para o Professor Kukui. No entanto, a Fundação Aether, uma organização que estuda os Ultra Buracos (portais dimensionais), está no centro de uma crise. A presidente Lusamine, obcecada por Ultra Beasts, abre os portais para o Ultraespaço, uma dimensão perigosa, na tentativa de encontrar seu marido, que desapareceu anos atrás. O jogador precisa salvar Lusamine e descobrir que Cosmog evolui para Solgaleo (o que emana o sol) ou Lunala (a que evoca a lua), e que ambos são os lendários que podem viajar entre as dimensões. Além disso, a sombra de Necrozma, uma criatura que absorve a luz para sobreviver, ameaça mergulhar Alola na escuridão eterna.",
+    "legendaries": [
+      "solgaleo",
+      "lunala",
+      "necrozma",
+      "tapu-koko",
+      "tapu-lele",
+      "tapu-bulu",
+      "tapu-fini",
+      "magearna",
+      "marshadow",
+      "zeraora",
+      "cosmog",
+      "cosmoem"
+    ]
+  },
+  "galar": {
+    "name": "Galar",
+    "generation": "generation-viii",
+    "map": "/maps/Galar.png",
+    "story": "Galar é a região de Pokémon Sword e Shield, inspirada no Reino Unido. É uma região industrial, com cidades de tijolos, campos verdes e a grandiosa área selvagem (Wild Area). Em Galar, as batalhas de ginásio são tratadas como o maior esporte do país, com estádios gigantescos lotados e transmissões ao vivo. A história começa quando o jogador e seu rival Hop recebem seus primeiros Pokémon do irmão de Hop, Leon (o campeão invicto). O jogador embarca no Desafio do Ginásio para derrotar Leon. No entanto, nos bastidores, o presidente Rose (da Macro Cosmos) está preocupado com uma crise energética que atingirá Galar em 1000 anos. Ele tenta despertar o lendário Eternatus (uma criatura alienígena que causou o Caos Sombrio no passado) para usar sua energia infinita. Rose perde o controle, e Eternatus causa o Caos Sombrio, transformando Pokémon gigantes em selvagens. O jogador descobre que a lenda do Herói de Galar, que derrotou Eternatus há milênios, na verdade envolvia dois Pokémon: Zacian (a espada) e Zamazenta (o escudo). O jogador precisa empunhar esses dois lendários para derrotar Eternatus e salvar a região. Além disso, a região abriga Kubfu, um Pokémon que pode evoluir para Urshifu, e os novos gigantes lendários Regieleki e Regidrago.",
+    "legendaries": [
+      "zacian",
+      "zamazenta",
+      "eternatus",
+      "kubfu",
+      "urshifu",
+      "regieleki",
+      "regidrago",
+      "glastrier",
+      "spectrier",
+      "calyrex"
+    ]
+  },
+  "paldea": {
+    "name": "Paldea",
+    "generation": "generation-ix",
+    "map": "/maps/Paldea.png",
+    "story": "Paldea é a região de Pokémon Scarlet e Violet, inspirada na Península Ibérica (Espanha e Portugal). É a primeira região de mundo aberto da franquia, onde o jogador pode explorar livremente e escolher a ordem dos desafios. A cultura de Paldea gira em torno da Academia Naranja (em Scarlet) ou Academia Uva (em Violet). O jogador recebe uma montaria lendária, Koraidon (que representa o passado e a força bruta) ou Miraidon (que representa o futuro e a tecnologia), que perdeu seus poderes e precisa recuperá-los comendo ervas místicas. A história tem três grandes arcos: a Rota dos Ginásios (para se tornar Campeão), a Rota dos Titãs (enfrentar Pokémon gigantes) e a Rota Star (enfrentar a Equipe Star, uma gangue de estudantes rebeldes). Tudo culmina no Grande Poço Zero, uma cratera gigantesca no centro de Paldea que foi palco de uma antiga expedição. Lá, o jogador descobre que o Professor Sada (no passado) ou Turo (no futuro) criou uma máquina do tempo e trouxe Pokémon Paradoxo (versões primitivas ou robóticas de Pokémon modernos) para a região. Além disso, Paldea guarda os quatro tesouros (Wo-Chien, Chien-Pao, Ting-Lu e Chi-Yu), criaturas amaldiçoadas seladas em santuários, e os lendários de DLC, como Ogerpon e Terapagos.",
+    "legendaries": [
+      "koraidon",
+      "miraidon",
+      "wo-chien",
+      "chien-pao",
+      "ting-lu",
+      "chi-yu",
+      "ogrepon",
+      "terapagos",
+      "pecharunt"
+    ]
+  }
+}

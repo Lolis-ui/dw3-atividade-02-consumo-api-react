@@ -1,0 +1,20 @@
+{
+  "normal": "/icons/normal.svg",
+  "fire": "/icons/fogo.svg",
+  "water": "/icons/agua.svg",
+  "electric": "/icons/eletrico.svg",
+  "grass": "/icons/grama.svg",
+  "ice": "/icons/gelo.svg",
+  "fighting": "/icons/lutador.svg",
+  "poison": "/icons/venenoso.svg",
+  "ground": "/icons/chao.svg",
+  "flying": "/icons/voador.svg",
+  "psychic": "/icons/psiquico.svg",
+  "bug": "/icons/inseto.svg",
+  "rock": "/icons/rocha.svg",
+  "ghost": "/icons/fantasma.svg",
+  "dragon": "/icons/dragao.svg",
+  "dark": "/icons/escuridao.svg",
+  "steel": "/icons/metal.svg",
+  "fairy": "/icons/fada.svg"
+}

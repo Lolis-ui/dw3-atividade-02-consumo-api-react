@@ -1,0 +1,87 @@
+.card {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url("/imgs/landscape.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  transition:
+    all 0.3s ease,
+    background-size 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+
+  border: 2px solid var(--poke-black);
+  border-top: 8px solid var(--poke-red);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
+  border-color: var(--poke-dark-red);
+  /* Efeito de zoom na paisagem ao passar o mouse */
+  background-size: 110%;
+}
+
+.imageContainer {
+  /* Fundo semi-transparente para o Pokémon se destacar da paisagem */
+  background-color: rgba(240, 240, 240, 0.8);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 3px solid var(--poke-black);
+  transition: transform 0.2s;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .imageContainer {
+  transform: scale(1.05);
+}
+
+.image {
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.card:hover .image {
+  transform: scale(1.15);
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+  /* Caixa branca translúcida para o texto não sumir na paisagem */
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 12px;
+  border-radius: 8px;
+  backdrop-filter: blur(2px);
+}
+
+.id {
+  color: var(--poke-red);
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.name {
+  color: var(--poke-black);
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  text-transform: capitalize;
+  font-weight: 900;
+}

@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleBox {
+  text-align: center;
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 1rem 3rem;
+  border-radius: 16px;
+  border: 3px solid #222224;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #ee1515;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.contentWrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 60px;
+}
+
+.floatingBtn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #222224;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  transition: all 0.2s;
+  box-shadow: 0 4px 0 #222224;
+}
+
+.btnLeft {
+  left: 2vw;
+}
+
+.btnRight {
+  right: 2vw;
+}
+
+.btnActive {
+  background: #ee1515;
+  cursor: pointer;
+}
+
+.btnDisabled {
+  background: #e0e0e0;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.pageCount {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  color: #222224;
+  font-size: 1.2rem;
+}
+
+.loadingWrapper {
+  margin-top: 3rem;
+}
+
+/* NOVA SEÇÃO DA REGIÃO (MENSAGEM / BOTÃO) */
+.regionSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.regionLinkButton {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: #9f1b1b;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+  border-radius: 999px;
+  border: 3px solid #222224;
+  box-shadow: 0 6px 0 #222224;
+  transition:
+    transform 0.2s,
+    background 0.2s;
+  text-align: center;
+}
+
+.regionLinkButton:hover {
+  transform: translateY(-4px);
+  background: #cc0000;
+}

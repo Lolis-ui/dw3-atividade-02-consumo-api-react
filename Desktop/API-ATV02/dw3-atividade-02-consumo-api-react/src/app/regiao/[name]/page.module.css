@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.banner {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+  background-color: #111;
+}
+
+.bannerBg {
+  object-fit: cover;
+  filter: blur(15px);
+  opacity: 0.4;
+}
+
+.bannerImgContainer {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  z-index: 2;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 3px solid #222224;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.1);
+}
+
+.regionName {
+  color: #9f1b1b;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.sectionTitle {
+  color: #222224;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  border-bottom: 4px solid #9f1b1b;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  font-weight: 900;
+}
+
+.storyText {
+  line-height: 1.8;
+  color: #444;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.legendaryList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.legendaryCard {
+  text-decoration: none;
+  background: #fafafa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border: 2px solid #eee;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.legendaryCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 0 rgba(0,0,0,0.1);
+  border-color: #222224;
+}
+
+.legendaryImage {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border: 2px solid #222224;
+}
+
+.legendaryInfo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.legendaryName {
+  text-transform: capitalize;
+  color: #9f1b1b;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+
+.legendaryLore {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.backBtn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: #9f1b1b;
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.1rem;
+  border: 2px solid #222224;
+  box-shadow: 0 4px 0 #222224;
+  transition: transform 0.2s;
+}
+
+.backBtn:hover {
+  transform: translateY(-2px);
+}
+
+.backBtnWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.notFoundBox {
+  text-align: center;
+  margin-top: 3rem;
+}

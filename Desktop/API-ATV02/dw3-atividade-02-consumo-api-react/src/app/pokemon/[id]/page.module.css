@@ -1,0 +1,207 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.backBtn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #222224;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 900;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 0 #ccc;
+}
+
+.mainCard {
+  display: flex;
+  gap: 2rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 3px solid #222224;
+  box-shadow: 0 8px 0 rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.imageCol {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 2px solid #eee;
+}
+
+.pokemonName {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #222224;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.pokemonId {
+  color: #9f1b1b;
+  font-size: 1.5rem;
+}
+
+.categoryBadge {
+  color: #9f1b1b;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  background: #ffebee;
+  padding: 4px 16px;
+  border-radius: 999px;
+}
+
+.legendaryBadge {
+  margin-top: 1rem;
+  background: #ffcb05;
+  padding: 4px 16px;
+  border-radius: 8px;
+  font-weight: 900;
+  color: #222224;
+  border: 2px solid #222224;
+}
+
+.infoCol {
+  flex: 2;
+  min-width: 300px;
+}
+
+.statsRow {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid #222224;
+}
+
+.statBox {
+  text-align: center;
+  flex: 1;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: bold;
+}
+
+.statValue {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #222224;
+}
+
+.divider {
+  width: 2px;
+  background: #eee;
+}
+
+.sectionTitle {
+  margin-bottom: 1rem;
+  color: #222224;
+  font-weight: 900;
+  border-bottom: 3px solid #9f1b1b;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.progressBarContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.progressRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progressName {
+  width: 110px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.progressBarBg {
+  flex: 1;
+  background: #eee;
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.progressBarFill {
+  height: 100%;
+}
+
+.progressValue {
+  width: 40px;
+  text-align: right;
+  font-weight: 900;
+  color: #222224;
+}
+
+.flexRow {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.attacksCard {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 3px solid #222224;
+  box-shadow: 0 8px 0 rgba(0,0,0,0.1);
+}
+
+.attacksList {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.attackItem {
+  background: #f0f0f0;
+  color: #222224;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid #ddd;
+}
+
+.notFoundBox {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.notFoundTitle {
+  color: #9f1b1b;
+  font-size: 2rem;
+  font-weight: 900;
+}
